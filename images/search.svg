@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
-</style>
-<g>
-	<path d="M47.5,33C53.84,33,59,38.16,59,44.5C59,50.84,53.84,56,47.5,56C41.16,56,36,50.84,36,44.5C36,38.16,41.16,33,47.5,33
-		 M47.5,32L47.5,32C40.6,32,35,37.6,35,44.5v0C35,51.4,40.6,57,47.5,57h0C54.4,57,60,51.4,60,44.5v0C60,37.6,54.4,32,47.5,32
-		L47.5,32z"/>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_15_152)">
+<rect width="24" height="24" fill="white"/>
+<circle cx="10.5" cy="10.5" r="6.5" stroke="#000000" stroke-linejoin="round"/>
+<path d="M19.6464 20.3536C19.8417 20.5488 20.1583 20.5488 20.3536 20.3536C20.5488 20.1583 20.5488 19.8417 20.3536 19.6464L19.6464 20.3536ZM20.3536 19.6464L15.3536 14.6464L14.6464 15.3536L19.6464 20.3536L20.3536 19.6464Z" fill="#000000"/>
 </g>
-<g>
-	<line class="st0" x1="52.5" y1="55.5" x2="59.5" y2="66.5"/>
-</g>
+<defs>
+<clipPath id="clip0_15_152">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
 </svg>

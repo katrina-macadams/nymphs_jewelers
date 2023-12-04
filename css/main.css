@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-
+    width: 100%;
 }
 
 body { 
@@ -21,16 +21,12 @@ body {
     flex-wrap: wrap;
   }
 
-  main {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+  
 
   header {
     background-color: white;
     padding:10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column; 
   }
@@ -44,7 +40,7 @@ h1 {
 span {
     display: inline-flex;
     flex-direction: row-reverse;
-    margin-left: 90px; 
+    margin-left: 200px; 
 }
 
 .see_more {
@@ -63,12 +59,41 @@ header nav {
 
 
 header nav ul li {
-    margin: 0 8px;
+    margin: 0 15px;
     display: inline;
     cursor: pointer;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .image_wrapper {
+    position: relative;
+  }
 
+li {
+    list-style-type: none;
+}
+  
+  .hero_box {
+    position: absolute; 
+    left: 5%;
+    top: 20%;
+    padding: 60px 30px 60px 10px;
+    margin: 4px;
+    background: white;
+  }
+
+  .image_wrapper {
+    position: relative;
+  }
+
+  #hero_image {
+    height: 700px;
+    width: 100%;
+}
 
 
   

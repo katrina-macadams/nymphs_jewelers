@@ -68,7 +68,10 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
   }
+
   .image_wrapper {
     position: relative;
   }
@@ -95,5 +98,76 @@ li {
     width: 100%;
 }
 
+main h2 {
+  display: flex;
+  justify-content: center;
+}
+main .categories {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
 
-  
+.categories article {
+  margin: 15px;
+}
+
+.categories article a {
+  display: block;
+  margin: 10px;
+}
+
+.categories article {
+  text-align: center;
+}
+
+main .collections {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.collections article {
+  margin: 10px;
+}
+
+.collections article a {
+  display: block;
+  margin: 10px;
+}
+
+.collections article {
+  text-align: center;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .container article {
+  display: inline-flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+
+
+main .container article #customers {
+  flex-wrap: wrap;
+  text-align: start;
+  margin-left: 20px;
+}
+
+
+main .container article #tech {
+  flex-wrap: wrap;
+  text-align: end;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+
+
+
+
+

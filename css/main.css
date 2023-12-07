@@ -1,169 +1,129 @@
-html, body {
-    height: 100%;
-    width: 100%;
-}
+
+/* Base CSS */
 
 body { 
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    background-color: white;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
 }
+
+/* Utility CSS */
 
 .hidden {
     display: none;
 }
 
-body {
-    background-color: white;
-    font-size: 17px;
-    color: rgb(0, 0, 0);
+/* Header */
+
+  h1 {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
   }
 
-  
-
-  header {
-    background-color: white;
-    padding:10px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column; 
-  }
-
-h1 {
-  margin-top: 15px;
+#see_more {
   display: flex;
-
+  justify-content: end;
 }
 
-span {
-    display: inline-flex;
-    flex-direction: row-reverse;
-    margin-left: 200px; 
+#main_nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding-inline-start: 0px;
 }
-
-.see_more {
-    margin-left: 80px;
-}
-
-header h1 {
-    display: flex;
-    justify-content: center;
-
-}
-
-header nav {
-    list-style-type: none;
-}
-
-
-header nav ul li {
-    margin: 0 15px;
-    display: inline;
-    cursor: pointer;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .image_wrapper {
-    position: relative;
-  }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
-  
-  .hero_box {
+img {
+  max-width: 1440px;
+}
+
+/* Hero Section */
+
+#hero_box {
     position: absolute; 
-    left: 5%;
-    top: 20%;
+    margin-top: 200px ;
+    margin-left: 60px;
     padding: 60px 30px 60px 10px;
-    margin: 4px;
     background: white;
-  }
-
-  .image_wrapper {
-    position: relative;
-  }
-
-  #hero_image {
-    height: 700px;
-    width: 100%;
 }
 
-main h2 {
-  display: flex;
+#hero_image {
+  padding:0px;
+}
+
+/* Categories */
+
+#categories {
   justify-content: center;
 }
-main .categories {
-  display: inline-flex;
-  justify-content: space-evenly;
-}
 
-.categories article {
-  margin: 15px;
-}
-
-.categories article a {
-  display: block;
-  margin: 10px;
-}
-
-.categories article {
-  text-align: center;
-}
-
-main .collections {
-  display: inline-flex;
-  justify-content: space-evenly;
-}
-
-.collections article {
-  margin: 10px;
-}
-
-.collections article a {
-  display: block;
-  margin: 10px;
-}
-
-.collections article {
-  text-align: center;
-}
-
-main .container {
-  display: flex;
+#cat_desc {
+  display:flex;
   flex-direction: column;
+  text-align: center;
+  margin: 20px;
+
+}
+
+#cat_desc h2 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#cat_art {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#cat_art article {
+  text-align: center;
+}
+
+#cat_art article a {
+  display: block;
+  margin: 10px;
+
+}
+
+
+/* Collections */
+
+#collections {
   justify-content: center;
 }
 
-main .container article {
-  display: inline-flex;
-  align-items: start;
-  justify-content: space-between;
+#col_desc {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+
 }
 
-
-
-main .container article #customers {
-  flex-wrap: wrap;
-  text-align: start;
-  margin-left: 20px;
+#col_desc h2 {
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
+#col_art {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
-main .container article #tech {
-  flex-wrap: wrap;
-  text-align: end;
-  justify-content: flex-end;
-  margin-right: 20px;
+#col_art article {
+  text-align: center;
+}
+
+#col_art article a {
+  display: block;
+  margin: 10px;
+
 }
 
 

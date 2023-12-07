@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/grid.css">
 <link rel="contact" href="contact.html">
 <title>Nymphs Jewelers</title>
 
@@ -10,19 +11,20 @@
 <!--Header-->
 
 <body>
-    <header>
-            <h1><a href="index.html">Nymphs Jewellers</a></h1>
+    <header class="grid-con" id="main_header">
+            <h1 class="col-start-6 col-span-5"><a href="index.html">Nymphs Jewellers</a></h1>
             <h2 class="hidden">Main Nav</h2>
-            <span>
-               
-                <section class="see_more">
-                     <img src="images/search.svg" alt="Search" width="40" height="40">
-                     <img src="images/heart.svg" alt="Favourites"  width="40" height="40">
-                      <img src="images/bag.svg" alt="Bag" width="40" height="40">
-                      <img src="images/profile.svg" alt="Login/Sign-up" width="40" height="40">
-                 </section>
-                
-            <nav>
+
+           
+        <section class="col-start-12 col-span-2" id="see_more">
+            <img src="images/search.svg" alt="Search" width="40" height="40">
+            <img src="images/heart.svg" alt="Favourites"  width="40" height="40">
+            <img src="images/bag.svg" alt="Bag" width="40" height="40">
+            <img src="images/profile.svg" alt="Login/Sign-up" width="40" height="40">
+        </section>   
+          
+
+            <nav id="main_nav" class="col-start-4 col-span-9">
                 <ul>
                     <li><a href="collections.html">Collections</a></li>
                     <li><a href="rings.html">Rings</a></li>
@@ -32,14 +34,10 @@
                     <li><a href="watches.html">Watches</a></li>
                     <li><a href="sales.html">Sales</a></li>
                     <li><a href="gifts.html">Gifts</a></li>
-            </ul>
+                </ul>
 
-            </span>
+    
         </nav>
-
- 
-     
-
 
     </header>
 
@@ -48,9 +46,9 @@
 
     <main>
  
-    <li class="image_wrapper">
-        <img id="hero_image" src="images/mainhero.png" alt="ring on pillow">
-        <div class="hero_box">
+    <li class="grid-con">
+        <img id="hero_image"  class="col-span-full" src="images/mainhero.png" alt="ring on pillow">
+        <div id="hero_box" class="col-span-2">
           <h3>Make Her Feel Special This Valentines Day</h3> 
           <p>2023 Valentines Day Heart Shaped Set</p>
         </div>
@@ -58,10 +56,19 @@
 
 <!--Categories-->
 
+<section id="categories" class="grid-con">
+    <div id="cat_desc" class="col-span-full">
         <h2>Our Categories</h2>
-        
-<section class="categories">
-    <h2 class="hidden">Categories</h2>
+    <p>Step into the ethereal realm of Nymphs Jewellers, where each collection is a 
+        poetic symphony of enchantment and fantasy. Our rings, earrings, necklaces, 
+        bracelets, and watches are crafted with otherworldly grace, capturing the 
+        essence of dreams in every delicate detail. Immerse yourself in the magic, 
+        where timeless beauty intertwines with the whimsical allure of Nymphs' 
+        celestial creations.</p>
+    </div>
+
+    <div id="cat_art" class="col-span-full">
+
         <article>
             <h3 class="hidden">Rings</h3>
             <img src="images/ring.jpg" alt="picture of ring" width="160" height="160">
@@ -96,13 +103,27 @@
             <a href="watches.html">Watches</a>
 
         </article>
+    </div>
+    
 </section>
 
 
 <!--Collections-->
-<h2>Our Collections</h2>
-<section class="collections">
-    <h2 class="hidden">Collections</h2>
+
+<section class="grid-con" id="collections">
+
+    <div id="col_desc" class="col-span-full">
+        <h2>Our Collections</h2>
+            <p>Embark on ethereal quests with Nymphs Jewellers' collections! Weaving 
+                Disney's enchantment, the majestic allure of Thrones, the regal 
+                whispers of the Empress into each piece, and the celestial wonders of 
+                our Astrology Collection, where stars guide rings and earrings in a 
+                mystic harmony. In every bewitching creation, find a portal to realms 
+                where fantasy, elegance, and celestial wonders converge.</p> 
+    </div>
+
+    <div id="col_art" class="col-span-full">
+
         <article>
             <h3 class="hidden">Disney x Nymph</h3>
             <img src="images/disneyxnymph.jpg" alt="picture of !!!" width="160" height="160">
@@ -130,10 +151,11 @@
             <a href="astrology.html">Astrology x Nymph</a>
 
         </article>
+    </div>
 </section>
 
 <!--Reviews and Consultations-->
-<section>
+<section class="grid-con">
     <div class="container">
     <h2 class="hidden">Reviews and Consultations</h2>
         <article class="reviews">

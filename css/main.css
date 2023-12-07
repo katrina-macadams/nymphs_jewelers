@@ -126,8 +126,85 @@ img {
 
 }
 
+/* Reviws and Consultations */
+
+/* Reviews */
+
+#customers {
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+#reviews #customers {
+  margin-left: 30px;
+}
+
+#reviews img {
+  margin-left: 320px ;
+}
 
 
+/* Consultations */
+
+#tech {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  text-align: end;
+}
+#tech #consult {
+  margin-right: 30px;
+}
+
+#consult img {
+  margin-right: 320px ;
+}
+
+/* Share Your Story */
+
+#stories {
+  margin: 20px;
+  justify-content: center;
+}
+
+#insta {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+#insta h3, p, img, a {
+  margin: 10px;
+}
+
+#insta a {
+  margin-top: 10px;
+}
 
 
+/* Footer */
+
+footer article {
+  margin-left: 50px;
+}
+footer h2 {
+  margin-left: 10px;
+}
+
+footer nav, li {
+  display: grid;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+footer .grid-con {
+  padding:0px;
+}
+
+#copyright {
+  margin-left: 20px;
+}
 

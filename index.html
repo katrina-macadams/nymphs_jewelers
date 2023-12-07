@@ -155,22 +155,20 @@
 </section>
 
 <!--Reviews and Consultations-->
-<section class="grid-con">
-    <div class="container">
-    <h2 class="hidden">Reviews and Consultations</h2>
-        <article class="reviews">
-            <div id="customers">
+<section>
+    <h2 class="hidden"> Reviews and Consultations</h2>
+        <article class="grid-con" id="reviews" class="col-start-1 col-span-11">
+            <div id="customers" class="col-span-4">
                 <h3>Hear From Our Customers</h3>
-                <p>" Timeless elegance that leaves a</p>
-                <p>lasting impression. " </p>
+                <p>" Timeless elegance that leaves a lasting impression. " </p>
                 <p>— Sarah L. </p>
             </div>
            <img src="images/happycustomer.jpg" alt="picture of happy customer" width="720" height="300">
         </article>
 
-        <article class="consult">
+        <article id="consult" class="grid-con" class="col-start-1 col-span-11">
             <img src="images/consultation.jpg" alt="picture of a jewel tech helping woman" width="720" height="300">
-        <div id="tech">
+        <div id="tech" class="col-start-11 col-span-4">
             
                 <h3>Need Help?</h3>
                 <p>Book a Consultation with Our Jewel Technicians </p>
@@ -181,9 +179,9 @@
     </div>
 </section>
 
-<section id="stories">
+<section id="stories" class="grid-con">
     <h2 class="hidden">Stories</h2>
-        <article>
+        <article id="insta" class="col-span-full">
             <h3>Share Your Story</h3>
             <p>#NymphJewellers</p>
             <img src="images/gallery.jpg" alt="most recent instagram post" width="513" height="141">
@@ -195,6 +193,8 @@
 
 <!--Footer-->
     <footer>
+    <section class="grid-con">
+        <article class="col-start-1 col-span-3">
             <h2>Need Help?</h2>
             <nav>
                 <ul>
@@ -208,7 +208,10 @@
                     <li><a href="faq.html">FAQ</a></li>
                 </ul>
             </nav>
-            <h2>About Us</h2>
+        </article>
+
+        <article class="col-start-5 col-span-3">
+            <h2 >About Us</h2>
             <nav>
                 <ul>
                     <li><a href="careers.html">Careers</a></li>
@@ -219,6 +222,9 @@
                     <li><a href="newsletter.html">Newsletter</a></li>
                 </ul>
             </nav>
+        </article>
+
+        <article class="col-start-8 col-span-3">
             <h2>Just For Fun</h2>
             <nav>
                 <ul>
@@ -229,27 +235,47 @@
                     <li><a href="silverorgold.html">Silver or Gold</a></li>
                 </ul>
             </nav>
+        </article>
            
-    
+        <article class="col-start-11 col-span-5">
             <section>
                 <h2>See More, Share More</h2>
-                <img src="images/instagram.svg" alt="Instagram" width="40" height="40">
-                    <a href="instagram/nymphjewellers.html">Instagram</a>
-                <img src="images/facebook.svg" alt="Facebook" width="40" height="40">
-                    <a href="facebook/nymphjewellers.html">Facebook</a>
-                <img src="images/pinterest.svg" alt="Pinterest" width="40" height="40">
-                    <a href="Pinterest/nymphjewellers.html">Pinterest</a>
-                <img src="images/twitter.svg" alt="Twitter" width="40" height="40">
-                    <a href="twitter/nymphjewellers.html">Twitter</a>
+            <div class="grid-con">
+                <div>
+                    <img src="images/instagram.svg" alt="Instagram" width="40" height="40">
+                        <a href="instagram/nymphjewellers.html">Instagram</a>
+                </div>
+                <div>
+                    <img src="images/facebook.svg" alt="Facebook" width="40" height="40">
+                        <a href="facebook/nymphjewellers.html">Facebook</a>
+                </div>
+            </div>
+
+            <div class="grid-con">
+                <div>
+                    <img src="images/pinterest.svg" alt="Pinterest" width="40" height="40">
+                        <a href="Pinterest/nymphjewellers.html">Pinterest</a>
+                </div>
+                <div>
+                    <img src="images/twitter.svg" alt="Twitter" width="40" height="40">
+                        <a href="twitter/nymphjewellers.html">Twitter</a>
+                </div>
+            </div>
+        </article>
             </section>
         
-            <section id="copyright">
+    </section>
+        <article class="grid-con">
+            <div id="copyright" class="col-start-1 col-span-3">
                 <h2 class="hidden">Copyright and Others</h2>
                     <p>©NymphJewellers</p>
+            </div>
+                <div id="other" class="col-start-11 col-span-8">
                     <a href="privacypolicy.html">Privacy Policy</a>
                     <a href="termsofuse.html">Terms of Use</a>
                     <a href="websiteaccessibility.html">Website Accessibility</a>
-            </section>
+                </div>
+        </article>
 
 
 

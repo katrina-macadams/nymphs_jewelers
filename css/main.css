@@ -2,11 +2,18 @@
 /* Base CSS */
 
 body { 
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    background-color: white;
+    background-color: rgba(222, 227, 231, 1);
     font-size: 17px;
     color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 6px;
 }
 
 /* Utility CSS */
@@ -17,9 +24,15 @@ body {
 
 /* Header */
 
+header {
+  background-color: rgba(170, 189, 200, 1);
+}
+
   h1 {
     display: flex;
     justify-content: center;
+    font-size: 38px;
+    margin-bottom: 0px;
   }
 
 #see_more {
@@ -49,9 +62,13 @@ img {
     margin-left: 60px;
     padding: 60px 30px 60px 10px;
     background: white;
+    border-style: solid;
+    border-color: rgb(52, 100, 120, 1);
+    border-width: 2px;
 }
 
 #hero_image {
+  margin: 0px;
   padding:0px;
 }
 
@@ -66,11 +83,12 @@ img {
   flex-direction: column;
   text-align: center;
   margin: 20px;
-
+  padding: 10px 15px 20px;
+  background: whitesmoke;
 }
 
 #cat_desc h2 {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
@@ -84,9 +102,10 @@ img {
   text-align: center;
 }
 
+
 #cat_art article a {
   display: block;
-  margin: 10px;
+  margin: 8px;
 
 }
 
@@ -102,11 +121,13 @@ img {
   flex-direction: column;
   text-align: center;
   margin: 20px;
+  padding: 10px 15px 20px;
+  background: whitesmoke;
 
 }
 
 #col_desc h2 {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 
@@ -120,6 +141,7 @@ img {
   text-align: center;
 }
 
+
 #col_art article a {
   display: block;
   margin: 10px;
@@ -128,7 +150,13 @@ img {
 
 /* Reviws and Consultations */
 
+
 /* Reviews */
+#reviews {
+  border-style: solid;
+  border-color: rgb(52, 100, 120, 1);
+  border-width: 2px;
+}
 
 #customers {
   display: grid;
@@ -141,10 +169,24 @@ img {
 
 #reviews img {
   margin-left: 320px ;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-color: rgb(52, 100, 120, 1);
+  border-width: 2px;
+  border-top: 0px;
+  border-bottom: 0px;
 }
 
 
 /* Consultations */
+
+#consult {
+  border-style: solid;
+  border-color: rgb(52, 100, 120, 1);
+  border-width: 2px;
+  padding-left: 0px;
+}
 
 #tech {
   display: grid;
@@ -158,6 +200,14 @@ img {
 
 #consult img {
   margin-right: 320px ;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-color: rgb(52, 100, 120, 1);
+  border-width: 2px;
+  border-top: 0px;
+  border-bottom: 0px;
 }
 
 /* Share Your Story */
@@ -173,6 +223,19 @@ img {
   justify-items: center;
 }
 
+#insta img {
+  border-style: solid;
+  border-color: rgb(52, 100, 120, 1);
+  border-width: 2px;
+}
+
+#insta a {
+  border-style: solid;
+  border-color: rgb(52, 100, 120, 1);
+  border-width: 2px;
+  padding:10px;
+}
+
 #insta h3, p, img, a {
   margin: 10px;
 }
@@ -183,6 +246,14 @@ img {
 
 
 /* Footer */
+
+footer {
+  border-style: solid;
+  border-color: rgb(52, 100, 120, 1);
+  border-width: 2px;
+  background-color: whitesmoke;
+  padding-top: 20px;
+}
 
 footer article {
   margin-left: 50px;
@@ -206,5 +277,42 @@ footer .grid-con {
 
 #copyright {
   margin-left: 20px;
+
 }
 
+#foot {
+  border-style: solid;
+  border-color: rgb(52, 100, 120, 1);
+  border-width: 2px;
+  background-color: rgba(52, 100, 120, 1);
+}
+
+
+/* Contact */
+
+/* Form */
+
+#contact {
+  
+  margin: 30px;
+}
+
+#contact h2, p, form {
+  margin: 15px;
+}
+
+/* Descriptions and Image */
+
+#cont_desc {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+#cont_desc p {
+  margin: 15px;
+}
+
+#num {
+  text-decoration: underline;
+  color:rgba(52, 100, 120, 1) ;
+}

@@ -17,11 +17,10 @@ body, p, h2, h3, h4, h5 {
     display: grid;
     grid-template-columns:repeat(12, 80px);
     max-width: 1440px;
-    padding-left: 10px;
-    padding-right: 10px;
     margin: 0 auto;
     column-gap: 20px;
     row-gap: 10px;
+    
  }
  
  .col-span-1	{grid-column: span 1 / span 1;}

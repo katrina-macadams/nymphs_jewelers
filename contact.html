@@ -3,136 +3,178 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/grid.css">
 <title>Nymphs Jewelers Contact Page</title>
 
 <!--Header-->
 <body>
-    <header>
-            <h1><a href="index.html">Nymphs Jewellers</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Collections</a></li>
-                    <li><a href="rings.html">Rings</a></li>
-                    <li><a href="necklaces.html">Necklaces</a></li>
-                    <li><a href="earrings.html">Earrings</a></li>
-                    <li><a href="bracelets.html">Bracelets</a></li>
-                    <li><a href="watches.html">Watches</a></li>
-                    <li><a href="sales.html">Sales</a></li>
-                    <li><a href="gifts.html">Gifts</a></li>
-                </ul>
-            </nav>
+    <header class="grid-con" id="main_header">
+        <h1 class="col-start-6 col-span-5"><a href="index.html">Nymphs Jewellers</a></h1>
+        <h2 class="hidden">Main Nav</h2>
 
-            <section>
-                <h2 class="hidden">See More</h2>
-                <img src="images/search.svg" alt="Search" width="40" height="40">
-                <img src="images/heart.svg" alt="Favourites"  width="40" height="40">
-                <img src="images/bag.svg" alt="Bag" width="40" height="40">
-                <img src="images/profile.svg" alt="Login/Sign-up" width="40" height="40">
-            </section>
+       
+    <section class="col-start-12 col-span-2" id="see_more">
+        <img src="images/search.svg" alt="Search" width="40" height="40">
+        <img src="images/heart.svg" alt="Favourites"  width="40" height="40">
+        <img src="images/bag.svg" alt="Bag" width="40" height="40">
+        <img src="images/profile.svg" alt="Login/Sign-up" width="40" height="40">
+    </section>   
+      
+
+        <nav id="main_nav" class="col-start-4 col-span-9">
+            <ul>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="rings.html">Rings</a></li>
+                <li><a href="necklaces.html">Necklaces</a></li>
+                <li><a href="earrings.html">Earrings</a></li>
+                <li><a href="bracelets.html">Bracelets</a></li>
+                <li><a href="watches.html">Watches</a></li>
+                <li><a href="sales.html">Sales</a></li>
+                <li><a href="gifts.html">Gifts</a></li>
+            </ul>
+         </nav>
+    
 
     </header>
 
 <!--Contact Us-->
 <main>
-    <h2>Contact Us</h2>
-    <p>Get in touch with us by using the contact form below.</p>
+    <section class="grid-con" id="contact">
+        <div id="form_box" class="col-start-1 col-span-6">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us by using the contact form below.</p>
 
-    <form method="post" action="#">
+            <form method="post" action="#">
 
-        <label for="first_name">First Name: </label>
-        <input type="text" name="first_name" id="first_name">
+                <label for="first_name">First Name: </label>
+                <input type="text" name="first_name" id="first_name">
 
-    <br><br>
+            <br><br>
 
-        <label for="last_name">Last Name: </label>
-        <input type="text" name="last_name" id="last_name">
+                <label for="last_name">Last Name: </label>
+                <input type="text" name="last_name" id="last_name">
 
-        <br><br>
+                <br><br>
 
-        <label for="email">Email: </label>
-        <input type="text" name="email" id="email">
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email">
 
-        <br><br>
+                <br><br>
 
-        <label for="comments">Comments: </label>
-        <textarea name="comments" id="comments">comment here</textarea>
+                <label for="comments">Comments: </label>
+                <textarea name="comments" id="comments">comment here</textarea>
 
-        <br><br>
+                <br><br>
 
-        <input type="submit" value="send">
-        <br><br>    <br><br>
-    </form>
-
+                <input type="submit" value="send">
+                <br><br>    <br><br>
+            </form>
+        </div>
+    </section>
   
+<section class="grid-con" id="cont_desc">
  <img src="images/contact_image.jpg" alt="two customer service agents" width="570" height="380"> 
 
- <p>If you can't wait or prefer to speak to us over the phone, 
-    feel free to reach out using the phone number:</p>
-    <p>(519) 123 4567</p>
-    <p>Our representatives are available to assist you from Monday to Friday, 8:00 AM to 8:00 PM EST. 
-    We look forward to hearing from you and addressing any questions or inquiries you may have.</p>
-    <p>Thank you for choosing Nymphs Jewellers!</p>
+ 
+    <div class="col-start-1 col-span-5">
+        <p>If you can't wait or prefer to speak to us over the phone, 
+        feel free to reach out using the phone number:</p>
+        <p id="num">(519) 123 4567</p>
+        <p>Our representatives are available to assist you from Monday to Friday, 8:00 AM to 8:00 PM EST. 
+        We look forward to hearing from you and addressing any questions or inquiries you may have.</p>
+        <p>Thank you for choosing Nymphs Jewellers!</p>
+    </div>
+</section>
 
  </main>
 
  <!--Footer-->
  <footer>
 
-    <h2>Need Help?</h2>
-    <nav>
-        <ul>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="consultation.html">Book a Consultation</a></li>
-            <li><a href="refunds.html">Refunds & Exchanges</a></li>
-            <li><a href="shipping.html">Shipping, Delivery & Pick Up</a></li>
-            <li><a href="repairs.html">Repairs</a></li>
-            <li><a href="ringsize.html">Ring Size Guide</a></li>
-            <li><a href="sales.html">Sales</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-        </ul>
-    </nav>
-    <h2>About Us</h2>
-    <nav>
-        <ul>
-            <li><a href="careers.html">Careers</a></li>
-            <li><a href="ourstory.html">Our Story</a></li>
-            <li><a href="ourinitiative.html">Our Initiative</a></li>
-            <li><a href="advertisement.html">Advertisement Policy</a></li>
-            <li><a href="repairs.html">Repairs</a></li>
-            <li><a href="newsletter.html">Newsletter</a></li>
-        </ul>
-    </nav>
-    <h2>Just For Fun</h2>
-    <nav>
-        <ul>
-            <li><a href="ringquiz.html">Ring Quiz</a></li>
-            <li><a href="birthstone.html">Birthstone Guide</a></li>
-            <li><a href="couplesquiz.html">Couples Quiz</a></li>
-            <li><a href="astrologyquiz.html">Astrology Quiz</a></li>
-            <li><a href="silverorgold.html">Silver or Gold</a></li>
-        </ul>
-    </nav>
-   
+    <section class="grid-con">
+        <article class="col-start-1 col-span-3">
+            <h2>Need Help?</h2>
+            <nav>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="consultation.html">Book a Consultation</a></li>
+                    <li><a href="refunds.html">Refunds & Exchanges</a></li>
+                    <li><a href="shipping.html">Shipping, Delivery & Pick Up</a></li>
+                    <li><a href="repairs.html">Repairs</a></li>
+                    <li><a href="ringsize.html">Ring Size Guide</a></li>
+                    <li><a href="sales.html">Sales</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </article>
 
-    <section>
-        <h4>See More, Share More</h4>
-        <img src="images/instagram.svg" alt="Instagram" width="40" height="40">
-            <a href="instagram/nymphjewellers.html">Instagram</a>
-        <img src="images/facebook.svg" alt="Facebook" width="40" height="40">
-            <a href="facebook/nymphjewellers.html">Facebook</a>
-        <img src="images/pinterest.svg" alt="Pinterest" width="40" height="40">
-            <a href="Pinterest/nymphjewellers.html">Pinterest</a>
-        <img src="images/twitter.svg" alt="Twitter" width="40" height="40">
-            <a href="twitter/nymphjewellers.html">Twitter</a>
-    </section>
+        <article class="col-start-5 col-span-3">
+            <h2 >About Us</h2>
+            <nav>
+                <ul>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="ourstory.html">Our Story</a></li>
+                    <li><a href="ourinitiative.html">Our Initiative</a></li>
+                    <li><a href="advertisement.html">Advertisement Policy</a></li>
+                    <li><a href="repairs.html">Repairs</a></li>
+                    <li><a href="newsletter.html">Newsletter</a></li>
+                </ul>
+            </nav>
+        </article>
 
-    <section id="copyright">
-        <h3 class="hidden">Copyright and Others</h3>
-            <p>©NymphJewellers</p>
-            <a href="privacypolicy.html">Privacy Policy</a>
-            <a href="termsofuse.html">Terms of Use</a>
-            <a href="websiteaccessibility.html">Website Accessibility</a>
+        <article class="col-start-8 col-span-3">
+            <h2>Just For Fun</h2>
+            <nav>
+                <ul>
+                    <li><a href="ringquiz.html">Ring Quiz</a></li>
+                    <li><a href="birthstone.html">Birthstone Guide</a></li>
+                    <li><a href="couplesquiz.html">Couples Quiz</a></li>
+                    <li><a href="astrologyquiz.html">Astrology Quiz</a></li>
+                    <li><a href="silverorgold.html">Silver or Gold</a></li>
+                </ul>
+            </nav>
+        </article>
+           
+        <article class="col-start-11 col-span-2">
+            <section>
+                <h2>See More, Share More</h2>
+            <div class="grid-con">
+                <div>
+                    <img src="images/instagram.svg" alt="Instagram" width="40" height="40">
+                        <a href="instagram/nymphjewellers.html">Instagram</a>
+                </div>
+                <div>
+                    <img src="images/facebook.svg" alt="Facebook" width="40" height="40">
+                        <a href="facebook/nymphjewellers.html">Facebook</a>
+                </div>
+            </div>
+
+            <div class="grid-con">
+                <div>
+                    <img src="images/pinterest.svg" alt="Pinterest" width="40" height="40">
+                        <a href="Pinterest/nymphjewellers.html">Pinterest</a>
+                </div>
+                <div>
+                    <img src="images/twitter.svg" alt="Twitter" width="40" height="40">
+                        <a href="twitter/nymphjewellers.html">Twitter</a>
+                </div>
+            </div>
+        </article>
+            </section>
+        
     </section>
+        <article id="foot" class="grid-con">
+            <div id="copyright" class="col-start-1 col-span-3">
+                <h2 class="hidden">Copyright and Others</h2>
+                    <p>©NymphJewellers</p>
+            </div>
+                <div id="other" class="col-start-11 col-span-8">
+                    <a href="privacypolicy.html">Privacy Policy</a>
+                    <a href="termsofuse.html">Terms of Use</a>
+                    <a href="websiteaccessibility.html">Website Accessibility</a>
+                </div>
+        </article>
+
 
 </footer>
 
